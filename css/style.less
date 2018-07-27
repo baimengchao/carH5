@@ -1,0 +1,256 @@
+
+@font-face {
+    font-family: 'new_word';
+    src:  url('./word.TTF') format('truetype');
+}
+body {
+    background: #000;
+}
+.print {
+    position: fixed; 
+}
+.tree {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: url('../images/tree1.gif') center top no-repeat;
+    background-size: cover;
+}
+.in_bg {
+    position: absolute;
+    left:0;
+    width: 200%;
+    transform: translate(0);
+    background: url("../images/scenes1_bg.jpg") left center no-repeat;
+    background-size: cover;
+}
+.sun {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 12%;
+    height: 22%;
+    background: url('../images/sun.gif') 0 0 no-repeat;
+    background-size: contain;
+}
+.buttons {
+    z-index: 1;
+    width: 26%;
+    position: absolute;
+    bottom: 3%;
+    left: 37%;
+    background: url("../images/bottom_arrow.png") center center no-repeat;
+    background-size: 100% auto;
+    .left {
+        width: 49%;
+        height: 100%;
+        float: left;
+    }
+    .right {
+        width: 49%;
+        height: 100%;
+        float: right;
+    }
+}
+.personal {
+    position: absolute;
+    top: 35%;
+    left: -200px;
+    background: url("../images/personal_1.png") center center no-repeat;
+    background-size: contain;
+}
+.persoanl_gif {
+    position: absolute;
+    top: 35%;
+    left: -200px;
+    background: url("../images/personalMove.gif") center center no-repeat;
+    background-size: contain;
+}
+.cloud {
+    width: 65%;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    background: url("../images/cloud.png") center center no-repeat;
+    background-size: contain;
+    transition: all 60s;
+}
+
+.cloudMove {
+    left: -250px;
+}
+.prompt {
+    position: absolute;
+    top: 65%;
+    left: 16%;
+    background: url('../images/prompt.png') center center no-repeat;
+    background-size: contain;
+    display: none;
+    z-index: 11;
+    p {
+        width: 70%;
+        height: 60%;
+        float: right;
+        margin-right: 4%;
+        margin-top: 8%;
+        overflow: hidden;
+        font-family: "new_word";        
+        letter-spacing: 0px;
+    }
+}
+.downArrow {
+    position: absolute;
+    z-index: 10;
+    background: url('../images/down_arrow.png') center center no-repeat transparent;
+    background-size: cover;
+    animation:smallToBig1 1s infinite;
+}
+.coach {
+    position: absolute;
+    top: 35%;
+}
+.task {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+    // background: url('../images/task.jpg') center center no-repeat #686868;
+    // background-size: contain;
+    .task_color {
+        background: #000;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .task_bg {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background: url('../images/task.png') center center no-repeat;
+        background-size: 100% 100%;
+        p {
+            width: 52%;
+            height: 23%;
+            overflow: hidden;
+            color: #64453a;
+        }
+        .p1 {
+            position: absolute;
+            left: 17%;
+            top: 13.8%;
+        }
+        .p2 {
+            position: absolute;
+            right: 14.6%;
+            bottom: 15.4%;
+        }
+    }
+}
+.keng {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+    .keng_color {
+        background: #000;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .keng_bg {
+        position: absolute;
+        left: 50%;
+        top:50%;
+        background: url('../images/keng.png') center center no-repeat;
+        background-size: 100% 100%;
+        p {
+            overflow: hidden;
+            font-family: "new_word";
+            color: @keng_word_color;
+        }
+        .keng_p1 {
+            position: absolute;
+            top: 27%;
+            left: 25%;
+            width: 60%;
+            height: 22%;
+        }
+        .keng_p2 {
+            position: absolute;
+            top: 47%;
+            left: 35%;
+            width: 52%;
+            height: 34%;
+            
+        }
+    }
+}
+
+
+@keyframes smallToBig1 {
+    0%   {
+        .transform(scale(1));
+    }
+    38%  {
+        .transform(scale(1.2));
+    }
+    45%  {
+        .transform(scale(1.2));
+    }
+    90%  {
+        .transform(scale(1));
+    }
+    
+}
+
+.wen {
+    display: none;
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    background: url("../images/wen.png") center center no-repeat;
+    background-size: contain;
+    animation:wenhao 1s infinite;
+}
+
+.zhizhu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/zhizhu.gif") 0 0 no-repeat;
+    background-size: contain;
+}
+
+@keyframes wenhao  {
+    0%   {
+        .transform(scale(1));
+    }
+    38%  {
+        .transform(scale(1.2));
+    }
+    45%  {
+        .transform(scale(1.2));
+    }
+    90%  {
+        .transform(scale(1));
+    }
+    
+}
+
+//公共样式
+@import "common.less";
+
+
+//首页样式
+@import "index.less";
+
+
