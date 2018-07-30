@@ -641,7 +641,7 @@ var loading = {
         }
     },
     //需要预加载的图片
-    arrPic: ['https://club.m.autohome.com.cn/act/heycar/learncar/images/bird.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/cocah1.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/bottom_arrow.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/cloud.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/cloud_1.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/keng.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/cocah.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/down_arrow.png','https://club.m.autohome.com.cn/act/heycar/learncar/images/first_arrow.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/first_bg.gif','https://club.m.autohome.com.cn/act/heycar/learncar/images/fly.gif','https://club.m.autohome.com.cn/act/heycar/learncar/images/personal_1.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/personal_old.gif', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/personal_old.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/personalCar.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/personalMove.gif', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/personalPk.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/prompt.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/qun_1.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/qun_2.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/qun_3.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes1_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes2_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes3_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes4_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes5_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes6_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes7_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes8_bg.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes8_car.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes8_personal.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes8_word.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes9_bg.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/scenes9_btn.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/share.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/snow.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/sun.gif', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/task.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/task1.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/tree.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/tree1.gif', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/vipCar.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/weChat.jpg', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/wen.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/white.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/white_1.png', 'https://club.m.autohome.com.cn/act/heycar/learncar/images/zhizhu.gif'],
+    arrPic: ['/images/bird.png','/images/cocah1.png','/images/bottom_arrow.png','/images/cloud.png','/images/cloud_1.png','/images/keng.png','/images/cocah.png','/images/down_arrow.png','/images/first_arrow.png', '/images/first_bg.gif','/images/fly.gif','/images/personal_1.png', '/images/personal_old.gif', '/images/personal_old.png', '/images/personalCar.png', '/images/personalMove.gif', '/images/personalPk.png', '/images/prompt.png', '/images/qun_1.png', '/images/qun_2.png', '/images/qun_3.png', '/images/scenes1_bg.jpg', '/images/scenes2_bg.jpg', '/images/scenes3_bg.jpg', '/images/scenes4_bg.jpg', '/images/scenes5_bg.jpg', '/images/scenes6_bg.jpg', '/images/scenes7_bg.jpg', '/images/scenes8_bg.png', '/images/scenes8_car.png', '/images/scenes8_personal.png', '/images/scenes8_word.png', '/images/scenes9_bg.jpg', '/images/scenes9_btn.png', '/images/share.png', '/images/snow.png', '/images/sun.gif', '/images/task.png', '/images/task1.png', '/images/tree.png', '/images/tree1.gif', '/images/vipCar.png', '/images/weChat.jpg', '/images/wen.png', '/images/white.png', '/images/white_1.png', '/images/zhizhu.gif'],
     //预加载所有图片
     loadPic: function (arr) {
         var _this = this;
@@ -678,7 +678,7 @@ var index = {
         this.listenClick();
 
         //播放背景音乐
-        // autoAudio('https://club.m.autohome.com.cn/act/heycar/learncar/images/2.mp3')
+        // autoAudio('/images/2.mp3')
     },
     //判断横竖竖屏
     judgeScreen: function () {
@@ -1002,7 +1002,7 @@ var scenes2 = {
         })
 
         //播放背景音乐
-        //autoAudio('https://club.m.autohome.com.cn/act/heycar/learncar/images/2.mp3')
+        //autoAudio('/images/2.mp3')
     },
     //记录是横屏还是竖屏,1-横屏 2-竖屏
     recording: 0,
@@ -1295,7 +1295,7 @@ var scenes3 = {
         })
 
         //播放背景音乐
-        //autoAudio('https://club.m.autohome.com.cn/act/heycar/learncar/images/1.mp3')
+        //autoAudio('/images/1.mp3')
     },
     //记录是横屏还是竖屏,1-横屏 2-竖屏
     recording: 0,
@@ -1504,7 +1504,7 @@ var scenes4 = {
         })
 
         //播放背景音乐
-        //autoAudio('https://club.m.autohome.com.cn/act/heycar/learncar/images/2.mp3')
+        //autoAudio('/images/2.mp3')
     },
     //记录是横屏还是竖屏,1-横屏 2-竖屏
     recording: 0,
@@ -1713,7 +1713,7 @@ var scenes5 = {
         })
 
         //播放背景音乐
-        //autoAudio('https://club.m.autohome.com.cn/act/heycar/learncar/images/1.mp3')
+        //autoAudio('/images/1.mp3')
     },
     //记录是横屏还是竖屏,1-横屏 2-竖屏
     recording: 0,
@@ -1953,7 +1953,7 @@ var scenes6 = {
         })
 
         //播放背景音乐
-        //autoAudio('https://club.m.autohome.com.cn/act/heycar/learncar/images/2.mp3')
+        //autoAudio('/images/2.mp3')
     },
     //记录是横屏还是竖屏,1-横屏 2-竖屏
     recording: 0,
@@ -2173,7 +2173,7 @@ var scenes7 = {
         })
 
         //播放背景音乐
-        //autoAudio('https://club.m.autohome.com.cn/act/heycar/learncar/images/1.mp3')
+        //autoAudio('/images/1.mp3')
     },
     //记录是横屏还是竖屏,1-横屏 2-竖屏
     recording: 0,
@@ -2795,8 +2795,8 @@ $("#scenes9 .button").find('.left').on('click', function () {
 //     var weixinShareConfig = {
 //         sharetitle: '那些年我在学车路上踩过的坑！',   
 //         sharesummary: '多收费？考试难？天天挨骂？学驾照你还遇到过哪些坑？', 
-//         shareurl: 'https://club.m.autohome.com.cn/act/heycar/learncar/index.htm',     
-//         coverurl: 'https://club.m.autohome.com.cn/act/heycar/learncar/images/weChat.jpg'      
+//         shareurl: '/index.htm',     
+//         coverurl: '/images/weChat.jpg'      
 //       };
 //       window.wxShare = wxShare;
 //       wxShare(window, {
